@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtViewer"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/imgView"
+        android:gravity="bottom|left|center"
+        android:textSize="17sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/rateView"
+        android:layout_width="217dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/imgView"
+        android:layout_alignStart="@+id/txtViewer"
+        android:gravity="top|left|center"
+        android:textSize="17sp"
+        android:textStyle="bold|italic" />
+
+
+</RelativeLayout>
